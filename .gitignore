@@ -1,3 +1,10 @@
+# Vagrant
+vagrantfile
+
+# Ansible
+**/.vagrant/*
+ansible.cfg
+
 # Local .terraform directories
 **/.terraform/*
 
