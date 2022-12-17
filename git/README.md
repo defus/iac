@@ -8,10 +8,10 @@ L'objectif de l'atelier git et Github va être de :
 
 * Et de manipuler les fonctionnalités simple de github
 
-## Déroulement de l'atelier
+## Instructions de l'atelier
 
 
-* Recupérer ce projet sur votre ordinateur​
+* Recupérer le projet sur votre ordinateur​
 ```
 git clone https://github.com/defus/iac.git​
 ```
