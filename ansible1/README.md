@@ -36,9 +36,9 @@ vagrant init ubuntu/focal64
   SHELL
 ```
 
-* Partager le projet ansible actuel avec le serveur ansible en ajoutant cette section dans le fichier `Vagrantfile`
+* Partager le projet ansible actuel avec le serveur ansible en ajoutant cette section dans le fichier `Vagrantfile` il est nécessaire que le fichier soit avec les options 600 pour permettre la connexion ssh par clé privée
 ```
-config.vm.synced_folder ".", "/vagrant"
+config.vm.synced_folder ".", "/vagrant", owner: "vagrant", mount_options: ["dmode=775,fmode=600"]
 ```
 
 * Créer le serveur vagrant depuis le fichier `vagrantfile`
