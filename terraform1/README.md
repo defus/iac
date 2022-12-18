@@ -6,6 +6,10 @@
 
 ## Instructions de l'atelier
 
+* Installer Terraform 
+
+  * Pour Windows, il faut [installer chocolatey](https://chocolatey.org/install) qui sert à l'installation de `Chocolatey`
+
 * La documentation du fournisseur Terraform AWS est accessible en ligne [ici](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 
 * Créer un utilisateur AWS avec les droits adminitsrateur
