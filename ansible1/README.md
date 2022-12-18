@@ -38,7 +38,7 @@ vagrant init ubuntu/focal64
 
 * Partager le projet ansible actuel avec le serveur ansible en ajoutant cette section dans le fichier `Vagrantfile` il est nécessaire que le fichier soit avec les options 600 pour permettre la connexion ssh par clé privée
 ```
-config.vm.synced_folder ".", "/vagrant", owner: "vagrant", mount_options: ["dmode=775,fmode=600"]
+  config.vm.synced_folder ".", "/vagrant", owner: "vagrant", mount_options: ["dmode=775,fmode=600"]
 ```
 
 * Créer le serveur vagrant depuis le fichier `vagrantfile`
@@ -68,7 +68,7 @@ Host default
 
 * Vérifier du coup qu'il est possible de se connecter sur le serveur avec cette adresse
 ```
-ssh vagrant@127.0.0.1 -p <port dans vagrant ssh-config> -i .vagrant/machines/default/virtualbox/private_key
+ssh vagrant@127.0.0.1 -p <port dans vagrant ssh-config> -i .vagrant/machines/default/virtualbox/private_key
 ```
 
 * Véfifier que Ansible et pip sont installés sur le serveur
