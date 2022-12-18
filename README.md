@@ -11,3 +11,5 @@ Continent les fichiers de base pour les TP sur les sujets git, github, Terraform
 3. [Atelier déploiement d'un serveur Web en HA avec balancement de charge](terraform2/README.md)
 
 4. [Atelier valider son setup Ansible](ansible1/README.md)
+
+5. [Atelier installer un serveur jenkins avec Ansible](ansible2/README.md)
