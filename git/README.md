@@ -32,7 +32,7 @@ git commit -m "J'ai ajouté mon prénom dans le fichier"
 
 * Pousser le fichier sur github​
 ```
-git push --set-upstream origin landry
+git push --set-upstream origin prénom
 ```
 
-* Créer une PR sur github pour demander la fusion de votre changement dans la branche principale (main)
+* Créer une PR (pull request) sur github pour demander la fusion de votre changement dans la branche principale (main)
