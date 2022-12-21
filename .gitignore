@@ -5,6 +5,9 @@ vagrantfile
 **/.vagrant/*
 ansible.cfg
 
+# docker
+docker.exe
+
 # Local .terraform directories
 **/.terraform/*
 
