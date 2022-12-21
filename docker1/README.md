@@ -1,11 +1,11 @@
-# Atelier commande de base docker
+# Atelier commande de base Docker
 
 ## Objectif
 
 Démontrer les concepts de base de Ansible
 
 * Déployer un serveur Docker sur vagrant
-* Déployer le client Docker
+* Déployer le client Docker sur sa station de travail Windows
 * Exécuter les commandes de base Docker
 
 ## Instructions de la démonstration
