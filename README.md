@@ -14,4 +14,6 @@ Continent les fichiers de base pour les TP sur les sujets git, github, Terraform
 
 5. [Atelier installer un serveur jenkins avec Ansible](ansible2/README.md)
 
-6. [Atelier commande de base Docker](docker1/README.md)
+6. [Atelier commandes de base Docker](docker1/README.md)
+
+7. [Atelier commandes de base Kubernetes](kubernetes1/README.md)
