@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Démontrer les concepts de base de Ansible
+Manipuler les commandes de base de Kubernetes
 
 * Installer un environnement Kubernetes sur un poste de développement Windows
 * Installer le client kubectl qui permet l'administration du cluster Kubernetes
