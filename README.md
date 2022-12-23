@@ -17,3 +17,5 @@ Continent les fichiers de base pour les TP sur les sujets git, github, Terraform
 6. [Atelier commandes de base Docker](docker1/README.md)
 
 7. [Atelier commandes de base Kubernetes](kubernetes1/README.md)
+
+8. [Atelier déployer une application sur AKS (Azure Kubernetes Services)](aks/README.md)
